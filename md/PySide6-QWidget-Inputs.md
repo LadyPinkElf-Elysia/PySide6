@@ -1,4 +1,4 @@
-# PySide6-QWidget-Inputs.md
+# PySide6-QWidget-Inputs
 
 ---
 

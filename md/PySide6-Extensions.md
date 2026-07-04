@@ -1,4 +1,4 @@
-# PySide6-Extensions.md
+# PySide6-Extensions
 
 ---
 

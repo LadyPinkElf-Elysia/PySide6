@@ -1,4 +1,4 @@
-# PySide6-QWidget-QMainWindow.md
+# PySide6-QWidget-QMainWindow
 
 ---
 

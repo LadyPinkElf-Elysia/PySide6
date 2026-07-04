@@ -1,4 +1,4 @@
-# PySide6-Advanced.md
+# PySide6-Advanced
 
 ---
 

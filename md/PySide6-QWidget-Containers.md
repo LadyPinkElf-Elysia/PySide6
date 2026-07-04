@@ -1,4 +1,4 @@
-# PySide6-QWidget-Containers.md
+# PySide6-QWidget-Containers
 
 ---
 

@@ -1,4 +1,4 @@
-# PySide6-QWidget-QDialog.md
+# PySide6-QWidget-QDialog
 
 ---
 

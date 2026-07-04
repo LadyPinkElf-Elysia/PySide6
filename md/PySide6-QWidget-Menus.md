@@ -1,4 +1,4 @@
-# PySide6-QWidget-Menus.md
+# PySide6-QWidget-Menus
 
 ---
 

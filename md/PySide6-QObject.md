@@ -1,4 +1,4 @@
-# PySide6-QObject.md
+# PySide6-QObject
 
 ---
 

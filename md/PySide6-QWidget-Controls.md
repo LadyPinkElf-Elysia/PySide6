@@ -1,4 +1,4 @@
-# PySide6-QWidget-Controls.md
+# PySide6-QWidget-Controls
 
 ---
 

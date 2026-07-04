@@ -1,4 +1,4 @@
-# PySide6 核心枚举速查手册（超详细进阶版）
+# PySide6-Enums
 
 > 💡 **使用提示**：PySide6 是 C++ 的 Python 绑定，严格区分命名空间。  
 > 在早期版本（或使用某些别名时），你可能会习惯写 `Qt.Window`，但标准写法是 `Qt.WindowType.Window`；写 `Qt.Key_S` 是错的，必须写 `Qt.Key.Key_S`。  
