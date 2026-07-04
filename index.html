@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head>
-      <title>index</title>
+      <title>PySide6文档</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -32,18 +32,19 @@
 <blockquote>
 <p>💡 <strong>使用提示</strong>：所有文档均存放在 <code>html/</code> 文件夹下，点击文档标题即可直接跳转阅读。</p>
 </blockquote>
+<p><a href="./PySide6/PySide6.html">简要介绍</a></p>
 <hr>
 <h2 id="-第一阶段地基与核心基类必须掌握">🧱 第一阶段：地基与核心基类（必须掌握） </h2>
 <p>这一阶段主要理解 PySide6 的底层逻辑和所有可视化控件的根基。如果你不懂信号与槽，或者不懂 <code>QWidget</code> 的工作原理，后面的代码都将无法理解。</p>
 <ul>
 <li>
-<p><strong><a href="./html/PySide6-QObject.html">QObject 家族</a></strong></p>
+<p><strong><a href="./PySide6-QObject/PySide6-QObject.html">QObject 家族</a></strong></p>
 <ul>
 <li><strong>要点</strong>：理解 <code>QObject</code> 是所有对象的祖先；掌握 <code>QApplication</code> 的单例管理模式；学会使用 <code>QThread</code> 处理耗时任务而不卡死界面；<strong>重中之重是彻底消化“信号与槽（Signal &amp; Slot）”</strong>，这是 PySide6 事件通信的灵魂。</li>
 </ul>
 </li>
 <li>
-<p><strong><a href="./html/PySide6-QWidget.html">QWidget 基类</a></strong></p>
+<p><strong><a href="./PySide6-QWidget/PySide6-QWidget.html">QWidget 基类</a></strong></p>
 <ul>
 <li><strong>要点</strong>：掌握尺寸、位置（<code>geometry</code>、<code>move</code>）、显示与隐藏（<code>show</code>）、事件拦截（<code>keyPressEvent</code>、<code>closeEvent</code>）的基础操作。这是所有 UI 控件的底层支撑。</li>
 </ul>
@@ -54,13 +55,13 @@
 <p>有了基础之后，你需要了解怎么搭建标准的桌面软件骨架。软件的主体是主窗口（菜单、工具条）和对话框（弹窗提示）。</p>
 <ul>
 <li>
-<p><strong><a href="./html/PySide6-QWidget-QMainWindow.html">QMainWindow 主窗口框架</a></strong></p>
+<p><strong><a href="./PySide6-QWidget-QMainWindow/PySide6-QWidget-QMainWindow.html">QMainWindow 主窗口框架</a></strong></p>
 <ul>
 <li><strong>要点</strong>：理解中心部件（<code>centralWidget</code>）、菜单栏、工具栏和状态栏的布局，以及 <code>QDockWidget</code>（可停靠窗口）的拖拽交互。</li>
 </ul>
 </li>
 <li>
-<p><strong><a href="./html/PySide6-QWidget-QDialog.html">QDialog 对话框家族</a></strong></p>
+<p><strong><a href="./PySide6-QWidget-QDialog/PySide6-QWidget-QDialog.html">QDialog 对话框家族</a></strong></p>
 <ul>
 <li><strong>要点</strong>：掌握模态与非模态对话框；学会使用标准的 <code>QMessageBox</code> 提示框、<code>QFileDialog</code> 文件选择器，以及如何创建自定义弹窗。</li>
 </ul>
@@ -71,25 +72,25 @@
 <p>这是日常开发中花费时间最长的阶段：把按钮、输入框用“布局管理器”组合到一起。</p>
 <ul>
 <li>
-<p><strong><a href="./html/PySide6-QWidget-Controls.html">基础控件家族</a></strong></p>
+<p><strong><a href="./PySide6-QWidget-Controls/PySide6-QWidget-Controls.html">基础控件家族</a></strong></p>
 <ul>
 <li><strong>要点</strong>：<code>QPushButton</code>、<code>QLabel</code>、<code>QCheckBox</code>、<code>QComboBox</code>、<code>QGroupBox</code> 的常用属性与信号。</li>
 </ul>
 </li>
 <li>
-<p><strong><a href="./html/PySide6-QWidget-Inputs.html">输入与调节家族</a></strong></p>
+<p><strong><a href="./PySide6-QWidget-Inputs/PySide6-QWidget-Inputs.html">输入与调节家族</a></strong></p>
 <ul>
 <li><strong>要点</strong>：<code>QLineEdit</code>、<code>QTextEdit</code> 的文本读取与过滤；<code>QSpinBox</code>、<code>QSlider</code>、<code>QProgressBar</code> 的数值控制；以及性能极佳的 <code>QPlainTextEdit</code>。</li>
 </ul>
 </li>
 <li>
-<p><strong><a href="./html/PySide6-QWidget-Containers.html">容器与数据展示</a></strong></p>
+<p><strong><a href="./PySide6-QWidget-Containers/PySide6-QWidget-Containers.html">容器与数据展示</a></strong></p>
 <ul>
 <li><strong>要点</strong>：<code>QTabWidget</code> 多页面切换、<code>QStackedWidget</code> 堆叠卡片、<code>QSplitter</code> 拖拽分割面板；以及展示数据的 <code>QListWidget</code>、<code>QTableWidget</code> 和树形结构 <code>QTreeWidget</code>。</li>
 </ul>
 </li>
 <li>
-<p><strong><a href="./html/PySide6-QLayout.html">布局管理器家族</a></strong></p>
+<p><strong><a href="./PySide6-QLayout/PySide6-QLayout.html">布局管理器家族</a></strong></p>
 <ul>
 <li><strong>要点</strong>：你必须抛弃手写坐标（<code>move</code>），学会使用 <code>QVBoxLayout</code>、<code>QHBoxLayout</code>、<code>QGridLayout</code> 和 <code>QFormLayout</code> 实现自适应界面。<strong>理解 <code>QSizePolicy</code> 是掌控控件如何伸缩的核心精髓。</strong></li>
 </ul>
@@ -100,19 +101,19 @@
 <p>掌握了上面的拼图后，就可以做商业级桌面软件的核心交互了。</p>
 <ul>
 <li>
-<p><strong><a href="./html/PySide6-QWidget-Menus.html">菜单与动作体系</a></strong></p>
+<p><strong><a href="./PySide6-QWidget-Menus/PySide6-QWidget-Menus.html">菜单与动作体系</a></strong></p>
 <ul>
 <li><strong>要点</strong>：<code>QAction</code> 将菜单、工具栏统一管理，实现全局快捷键（菜单栏代替散落的界面按钮）。</li>
 </ul>
 </li>
 <li>
-<p><strong><a href="./html/PySide6-Advanced.html">高阶与进阶机制</a></strong></p>
+<p><strong><a href="./PySide6-Advanced/PySide6-Advanced.html">高阶与进阶机制</a></strong></p>
 <ul>
 <li><strong>要点</strong>：学习 <code>QPainter</code> 进行自定义绘制（抗锯齿、画矩形/圆）；使用 <code>QSettings</code> 保存用户配置（窗口大小、历史记录）；掌握 <code>QTimer</code> 定时器、<code>QDrag</code> 拖动事件，以及 Qt Designer 可视化工具的配合使用。</li>
 </ul>
 </li>
 <li>
-<p><strong><a href="./html/PySide6-Extensions.html">扩展与补充模块</a></strong></p>
+<p><strong><a href="./PySide6-Extensions/PySide6-Extensions.html">扩展与补充模块</a></strong></p>
 <ul>
 <li><strong>要点</strong>：系统托盘图标（<code>QSystemTrayIcon</code>），调用外部子进程（<code>QProcess</code>），内嵌网页（<code>QWebEngineView</code>），播放 GIF 动图（<code>QMovie</code>），以及为控件添加阴影特效（<code>QGraphicsDropShadowEffect</code>）。</li>
 </ul>
@@ -121,7 +122,7 @@
 <hr>
 <h2 id="-第五阶段开发助手弹药库">🧰 第五阶段：开发助手（弹药库） </h2>
 <ul>
-<li><strong><a href="./html/PySide6-Enums.html">核心枚举速查手册</a></strong>
+<li><strong><a href="./PySide6-Enums/PySide6-Enums.html">核心枚举速查手册</a></strong>
 <ul>
 <li><strong>要点</strong>：解决 Pylance 时常报错“<code>Qt.xxx</code> 属性未知”的问题。在这里你可以快速查到 <code>Qt.WindowType</code>、<code>Qt.KeyboardModifier</code>、<code>QMessageBox.StandardButton</code> 等枚举的标准写法，避免硬编码数字。</li>
 </ul>
